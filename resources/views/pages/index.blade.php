@@ -63,7 +63,7 @@
                         <div class="col-xl-12">
                             <div class="main-slider__content">
                                 <p class="main-slider__sub-title">The Perfect Taste</p>
-                                <h2 class="main-slider__title">Healthy</h2>
+                                <h2 class="main-slider__title">Try it!</h2>
                                 <div class="main-slider__btn-box">
                                     <a href="{{route('about')}}" class="thm-btn main-slider__btn">Discover More <i class="icon-right-arrow"></i> </a>
                                 </div>

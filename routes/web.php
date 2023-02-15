@@ -3,7 +3,7 @@
 use App\Mail\Contact;
 use App\Models\FAQs;
 use App\Models\News;
-use App\Models\ViewModels\GlobalViewModel;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
@@ -34,7 +34,8 @@ Route::name('faq')->get('/faq', function () {
     return view('pages/faq', ['faqs' => $faqs]);
 });
 Route::name('products')->get('/products', function () {
-    return view('pages/products');
+    $products = Product::all();
+    return view('pages/products', ['products' => $products]);
 });
 Route::name('news')->get('/news', function () {
     $news = News::all();
@@ -46,9 +47,19 @@ Route::name('news/news-details')->get('/news-details/{id}', function ($id) {
 });
 Route::name('send-mail')->post('/send-mail', function (Request $request) {
     $mail_data = $request->all();
-    //Mail::to('isolution455@gmail.com')->send(new Contact($mail_data));
+    Mail::to('isolution455@gmail.com')->send(new Contact($mail_data));
     return back();
 });
-Route::get('/{any}', function () {
+Route::fallback(function (){
     return view('pages/404');
+});
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 });

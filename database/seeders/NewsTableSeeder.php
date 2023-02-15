@@ -27,7 +27,16 @@ class NewsTableSeeder extends Seeder
                 <h3>Factory Tour</h3>
                 <p>The visit concluded with a tour of the production facility, where the ambassador was able to see firsthand the entire production process, from sourcing raw materials to packaging finished products. He was particularly impressed by the level of cleanliness and organization in the factory, as well as the use of modern technology to ensure the highest level of quality.</p>
                 <p>Overall, the ambassador&apos;s visit highlights the growing interest in Ghanaian agricultural products and the potential for increased trade partnerships between the US and Ghana. His positive comments about our products serve as a testament to the quality and authenticity of your brand.</p>
-                <p><br></p>'
+                <p><br></p>
+                <div style="float: left; width: 50%; padding: 5px">
+                <img src="https://lh3.googleusercontent.com/2GlyAXOrbhLpERW5_b1WKrzjXRiCz8T4Dl9CKY2F-b6NQhB6wVMqG-bpfKHNfHzTvRQ=w2400" alt="" style="width:100%; border-radius:3px">
+                </div>
+                <div style="float: left; width: 50%; padding: 5px">
+                <img src="https://lh6.googleusercontent.com/iAUIvg6YAzVT7bOzq63HOQIROmhCnjiFbssLT5eJePFd04FzmyI0XTLK0l2sMECtcA8=w2400" alt="" style="width:100%; border-radius:3px">
+                </div>
+                <div style="float: left; width: 50%; padding: 5px">
+                <img src="https://lh6.googleusercontent.com/lFYvafInCIAQLvBWNROv7_FU21eqBQ8Z0g30djiqgNUuVV4IfTmDlHcwWaEixTd3vN4=w2400" alt="" style="width:100%; border-radius:3px">
+                </div>'
             ],
 
             (object)[
@@ -44,7 +53,13 @@ class NewsTableSeeder extends Seeder
                 <p><strong>More Convenience</strong></p>
                 <p>Having them available at Shoprite provides added convenience for customers who already love our products. They can now easily purchase our products while doing their regular grocery shopping, eliminating the need to go to a separate store or market.</p>
                 <p><br></p>
-                <p>Overall, this is great news for faastmmori and corn dough lovers. With increased access, high-quality standards, and added convenience, the availability of your products at Shoprite is sure to be a success.</p>'
+                <p>Overall, this is great news for faastmmori and corn dough lovers. With increased access, high-quality standards, and added convenience, the availability of your products at Shoprite is sure to be a success.</p>
+                <div style="float: left; width: 50%; padding: 5px">
+                <img src="https://lh5.googleusercontent.com/irbZVY48Eajeb3SEARDnqQloxpWO_646yCfuKlxSAqhKDi0xwafNdIKVF6pWtBl_0Ks=w2400" alt="" style="width:100%; border-radius:3px">
+                </div>
+                <div style="float: left; width: 50%; padding: 5px">
+                <img src="https://lh6.googleusercontent.com/zdkAVBz8TS9siWKVzyUqiAymenkpinWNy-x1pNM-BdyF3dAlXMSz1Uts51SkfBN3VnA=w2400" alt="" style="width:100%; border-radius:3px">
+                </div>'
             ]
         ];
 

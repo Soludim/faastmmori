@@ -26,12 +26,13 @@
                 <div class="product__items">
                     <div class="product__all">
                         <div class="row">
-                            <!--Product All Single Start-->
+
+                            @foreach($products as $product)
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="product__all-single">
                                     <div class="product__all-img-box">
                                         <div class="product__all-img">
-                                            <img src="../../images/products/shop-product-1-1.jpg" alt="">
+                                            <img src="{{asset('images/'.$product->image)}}" alt="">
                                             <span class="product__all-sale">Sale</span>
                                         </div>
                                     </div>
@@ -44,59 +45,14 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <h4 class="product__all-title">
-                                            <a href="#">Faastmmori Banku</a>
+                                            <a href="#">{{$product->name}}</a>
                                         </h4>
-                                        <!-- <p class="product__all-price">¢6.00</p> -->
+                                        <p class="product__all-price">¢{{$product->price}}</p>
                                     </div>
                                 </div>
                             </div>
-                            <!--Product All Single End-->
-                            <!--Product All Single Start-->
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="product__all-single">
-                                    <div class="product__all-img-box">
-                                        <div class="product__all-img">
-                                            <img src="../../images/products/shop-product-1-2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="product__all-content">
-                                        <div class="product__all-review">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <h4 class="product__all-title">
-                                            <a href="#">Faastmmori Koko</a>
-                                        </h4>
-                                        <!-- <p class="product__all-price">¢2.00</p> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Product All Single End-->
-                            <!--Product All Single Start-->
-                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                <div class="product__all-single">
-                                    <div class="product__all-img-box">
-                                        <div class="product__all-img">
-                                            <img src="../../images/products/shop-product-1-3.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="product__all-content">
-                                        <div class="product__all-review">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <h4 class="product__all-title"><a href="#">Faastmmori 10kg Bucket</a></h4>
-                                        <!-- <p class="product__all-price">¢20.00</p> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Product All Single End-->
+                            @endforeach
+
                         </div>
                     </div>
                 </div>

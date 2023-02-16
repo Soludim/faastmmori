@@ -18,27 +18,27 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('vendors/bootstrap/css/bootstrap.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/animate/animate.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/animate/custom-animate.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/fontawesome/css/all.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/jarallax/jarallax.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/jquery-magnific-popup/jquery.magnific-popup.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/nouislider/nouislider.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/nouislider/nouislider.pips.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/odometer/odometer.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/swiper/swiper.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/agrion-icons/style.css')}}">
-    <link rel="stylesheet" href="{{asset('vendors/tiny-slider/tiny-slider.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/reey-font/stylesheet.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/owl-carousel/owl.carousel.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/owl-carousel/owl.theme.default.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/bxslider/jquery.bxslider.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/bootstrap-select/css/bootstrap-select.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/vegas/vegas.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/jquery-ui/jquery-ui.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/timepicker/timePicker.css')}}" />
-    <link rel="stylesheet" href="{{asset('vendors/nice-select/nice-select.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/bootstrap/css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/animate/animate.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/animate/custom-animate.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/fontawesome/css/all.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/jarallax/jarallax.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/jquery-magnific-popup/jquery.magnific-popup.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/nouislider/nouislider.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/nouislider/nouislider.pips.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/odometer/odometer.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/swiper/swiper.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/agrion-icons/style.css')}}">
+    <link rel="stylesheet" href="//{{asset('vendors/tiny-slider/tiny-slider.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/reey-font/stylesheet.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/owl-carousel/owl.carousel.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/owl-carousel/owl.theme.default.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/bxslider/jquery.bxslider.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/bootstrap-select/css/bootstrap-select.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/vegas/vegas.min.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/jquery-ui/jquery-ui.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/timepicker/timePicker.css')}}" />
+    <link rel="stylesheet" href="//{{asset('vendors/nice-select/nice-select.css')}}" />
 
     <!-- template styles -->
     <link rel="stylesheet" href="{{asset('css/agrion.css')}}" />

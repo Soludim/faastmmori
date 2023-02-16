@@ -2,7 +2,7 @@
     <div class="main-header__wrapper">
         <div class="main-header__wrapper-inner">
             <div class="main-header__logo">
-                <a href="{{route('home')}}"><img src="../../images/resources/logo.png" alt=""></a>
+                <a href="{{route('home')}}"><img src="{{asset('images/resources/logo.png')}}" alt=""></a>
             </div>
             <div class="main-header__menu-box">
                 <div class="main-header__menu-box-top">

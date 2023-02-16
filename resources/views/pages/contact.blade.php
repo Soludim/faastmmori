@@ -3,7 +3,7 @@
 @section('content')
 <!--Page Header Start-->
 <section class="page-header">
-    <div class="page-header-bg" style="background-image: url(../../images/backgrounds/page-header-bg.jpg)">
+    <div class="page-header-bg" style="background-image: url({{asset('images/backgrounds/page-header-bg.jpg')}})">
     </div>
     <div class="container">
         <div class="page-header__inner">
@@ -78,14 +78,14 @@
 <!--Contact Two Start-->
 <section class="contact-two">
     <div class="contact-two__shape-1 float-bob-x">
-        <img src="../../images/shapes/contact-two-shape-1.png" alt="">
+        <img src="{{asset('images/shapes/contact-two-shape-1.png')}}" alt="">
     </div>
     <div class="container">
         <div class="section-title text-center">
             <span class="section-title__tagline">Write a Message</span>
             <h2 class="section-title__title">Always here to help you</h2>
             <div class="section-title__icon">
-                <img src="../../images/icon/section-title-icon-1.png" alt="">
+                <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
             </div>
         </div>
         <div class="contact-two__form-box">

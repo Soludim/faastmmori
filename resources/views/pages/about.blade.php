@@ -3,7 +3,7 @@
 @section('content')
 <!--Page Header Start-->
 <section class="page-header">
-    <div class="page-header-bg" style="background-image: url(../../images/backgrounds/page-header-bg.jpg)">
+    <div class="page-header-bg" style="background-image: url({{asset('images/backgrounds/page-header-bg.jpg')}})">
     </div>
     <div class="container">
         <div class="page-header__inner">
@@ -28,17 +28,17 @@
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="about-three__left-single">
                                 <div class="about-three__left-img">
-                                    <img src="../../images/resources/about-three-img-1.jpg" alt="">
+                                    <img src="{{asset('images/resources/about-three-img-1.jpg')}}" alt="">
                                 </div>
                                 <div class="about-three__left-img about-three__left-img--2">
-                                    <img src="../../images/resources/about-three-img-2.jpg" alt="">
+                                    <img src="{{asset('images/resources/about-three-img-2.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="about-three__left-single">
                                 <div class="about-three__left-img">
-                                    <img src="../../images/resources/about-three-img-3.jpg" alt="">
+                                    <img src="{{asset('images/resources/about-three-img-3.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                         <span class="section-title__tagline">Eat Well, Eat Traditional</span>
                         <h2 class="section-title__title">Get to Know Sahel Grains</h2>
                         <div class="section-title__icon">
-                            <img src="../../images/icon/section-title-icon-1.png" alt="">
+                            <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                         </div>
                     </div>
                     <p class="about-three__text-1">Sahel Grains is an agribusiness based in Ghana, West Africa. 
@@ -91,7 +91,7 @@
 <section class="Provide-One">
     <div class="Provide-One__wrap">
         <div class="Provide-One__left">
-            <div class="Provide-One__bg" style="background-image: url(../../images/backgrounds/provide-one-bg.jpg);"></div>
+            <div class="Provide-One__bg" style="background-image: url({{asset('images/backgrounds/provide-one-bg.jpg')}});"></div>
             <div class="provide-one__sopport">
                 <div class="provide-one__support-icon">
                     <span class="icon-harvester"></span>
@@ -102,13 +102,13 @@
         </div>
         <div class="Provide-One__right" style="padding: 65px">
             <div class="provide-one__bg-shape float-bob-x">
-                <img src="../../images/backgrounds/provide-one-shape-1.png" alt="">
+                <img src="{{asset('images/backgrounds/provide-one-shape-1.png')}}" alt="">
             </div>
             <div class="Provide-One__content">
                 <div class="section-title text-left">
                     <h2 class="section-title__title">Our Beneifts</h2>
                     <div class="section-title__icon">
-                        <img src="../../images/icon/section-title-icon-1.png" alt="">
+                        <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                     </div>
                 </div>
                 <p class="Provide-One__text">Sahel grains has since 2016 been focused on increasing the productivity and
@@ -194,21 +194,21 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="project-details__content-right">
                         <div class="about-three__left-img">
-                            <img src="../../images/resources/about-faast-1.jpg" alt="">
+                            <img src="{{asset('images/resources/about-faast-1.jpg')}}" alt="">
                         </div>
                         <div class="about-three__left-img" style="margin-top:20px">
-                            <img src="../../images/resources/about-faast-2.jpg" alt="">
+                            <img src="{{asset('images/resources/about-faast-2.jpg')}}" alt="">
                         </div>
                         <div class="about-three__left-img" style="margin-top:20px">
-                            <img src="../../images/resources/about-faast-3.jpg" alt="">
+                            <img src="{{asset('images/resources/about-faast-3.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 10px">
                 <video width="100%" height="450" controls style="border: 1px solid #e9e9e9" 
-                poster="../../images/resources/video_poster.jpeg">
-                    <source src="../../images/resources/mmori_video.mp4" type="video/mp4">
+                poster="{{asset('images/resources/video_poster.jpeg')}}">
+                    <source src="{{asset('images/resources/mmori_video.mp4')}}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -225,7 +225,7 @@
             <span class="section-title__tagline">Team Members</span>
             <h2 class="section-title__title">Meet our farmers</h2>
             <div class="section-title__icon">
-                <img src="../../images/icon/section-title-icon-1.png" alt="">
+                <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
             </div>
         </div>
         <div class="project-carousel thm-owl__carousel owl-theme owl-carousel carousel-dot-style"
@@ -255,7 +255,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-1.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-1.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">healthy</span>
@@ -271,7 +271,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-2.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-2.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">farming</span>
@@ -287,7 +287,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-3.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-3.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">organic</span>
@@ -303,7 +303,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-1.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-1.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">solution</span>
@@ -319,7 +319,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-2.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-2.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">harvest</span>
@@ -335,7 +335,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-3.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-3.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">farming</span>
@@ -351,7 +351,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-1.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-1.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">healthy</span>
@@ -367,7 +367,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-2.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-2.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">farming</span>
@@ -383,7 +383,7 @@
                         <div class="project-one__single">
                             <div class="project-one__inner">
                                 <div class="project-one__img">
-                                    <img src="../../images/team/team-1-3.jpg" alt="">
+                                    <img src="{{asset('images/team/team-1-3.jpg')}}" alt="">
                                 </div>
                                 <div class="project-one__content">
                                     <span class="project-one__tagline">organic</span>
@@ -403,7 +403,7 @@
 
 <!--Cta One Start-->
 <section class="cta-one">
-    <div class="cta-one__bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(../../images/backgrounds/cta-one-bg.jpg);"></div>
+    <div class="cta-one__bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url({{asset('images/backgrounds/cta-one-bg.jpg')}});"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">

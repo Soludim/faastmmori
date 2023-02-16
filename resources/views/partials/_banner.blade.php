@@ -23,13 +23,13 @@
                         <!--Brand One Single-->
                         <div class="brand-one__single">
                             <div class="brand-one__img">
-                                <img src="../../images/brand/brand-1-1.png" alt="">
+                                <img src="{{asset('images/brand/brand-1-1.png')}}" alt="">
                             </div>
                         </div>
                         <!--Brand One Single-->
                         <div class="brand-one__single">
                             <div class="brand-one__img">
-                                <img src="../../images/brand/brand-1-2.png" alt="">
+                                <img src="{{asset('images/brand/brand-1-2.png')}}" alt="">
                             </div>
                         </div>
                     </div>

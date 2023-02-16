@@ -8,7 +8,7 @@ $second_loop = $total - $first_loop
 @section('content')
 <!--Page Header Start-->
 <section class="page-header">
-    <div class="page-header-bg" style="background-image: url(../../images/backgrounds/page-header-bg.jpg)">
+    <div class="page-header-bg" style="background-image: url({{asset('images/backgrounds/page-header-bg.jpg')}})">
     </div>
     <div class="container">
         <div class="page-header__inner">
@@ -24,7 +24,7 @@ $second_loop = $total - $first_loop
 <!--Page Header End-->
 <!--Faq page Start-->
 <section class="faq-page">
-    <div class="faq-page-shape-1 float-bob-x" style="background-image: url(../../images/shapes/faq-page-shape-1.png);">
+    <div class="faq-page-shape-1 float-bob-x" style="background-image: url({{asset('images/shapes/faq-page-shape-1.png')}});">
     </div>
     <div class="container">
         <div class="row">
@@ -78,7 +78,7 @@ $second_loop = $total - $first_loop
             <span class="section-title__tagline">Write a Message</span>
             <h2 class="section-title__title">Always here to help you</h2>
             <div class="section-title__icon">
-                <img src="../../images/icon/section-title-icon-1.png" alt="">
+                <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
             </div>
         </div>
         <div class="contact-two__form-box">

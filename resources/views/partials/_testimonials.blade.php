@@ -1,5 +1,5 @@
 <section class="testimonial-three">
-    <div class="testimonial-three__shape-1" style="background-image: url(../../images/shapes/testimonial-three-shape-1.png);"></div>
+    <div class="testimonial-three__shape-1" style="background-image: url({{asset('images/shapes/testimonial-three-shape-1.png')}});"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-4">
@@ -8,7 +8,7 @@
                         <span class="section-title__tagline">Our Testimonials</span>
                         <h2 class="section-title__title">What They’re taking about Faast Mmori</h2>
                         <div class="section-title__icon">
-                            <img src="../../images/icon/section-title-icon-1.png" alt="">
+                            <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                                         mom had It, she asked me if I had already put sugar in her porridge.</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="../../images/testimonial/testimonial-1-1.jpg" alt="">
+                                            <img src="{{asset('images/testimonial/testimonial-1-1.jpg')}}" alt="">
                                             <div class="testimonial-one__quote">
                                                 <span class="icon-quote"></span>
                                             </div>
@@ -68,7 +68,7 @@
                                     <p class="testimonial-one__text">Don't just buy , buy quality products #FAAST MMORI</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="../../images/testimonial/testimonial-1-2.jpg" alt="">
+                                            <img src="{{asset('images/testimonial/testimonial-1-2.jpg')}}" alt="">
                                             <div class="testimonial-one__quote">
                                                 <span class="icon-quote"></span>
                                             </div>
@@ -93,7 +93,7 @@
                                         touch to any dish. I'll never go back to my old dough again</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="../../images/testimonial/testimonial-1-3.jpg" alt="">
+                                            <img src="{{asset('images/testimonial/testimonial-1-3.jpg')}}" alt="">
                                             <div class="testimonial-one__quote">
                                                 <span class="icon-quote"></span>
                                             </div>
@@ -118,7 +118,7 @@
                                         mom had It, she asked me if I had already put sugar in her porridge.</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="../../images/testimonial/testimonial-1-1.jpg" alt="">
+                                            <img src="{{asset('images/testimonial/testimonial-1-1.jpg')}}" alt="">
                                             <div class="testimonial-one__quote">
                                                 <span class="icon-quote"></span>
                                             </div>
@@ -141,7 +141,7 @@
                                     <p class="testimonial-one__text">Don't just buy , buy quality products #FAAST MMORI</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="../../images/testimonial/testimonial-1-2.jpg" alt="">
+                                            <img src="{{asset('images/testimonial/testimonial-1-2.jpg')}}" alt="">
                                             <div class="testimonial-one__quote">
                                                 <span class="icon-quote"></span>
                                             </div>
@@ -166,7 +166,7 @@
                                         touch to any dish. I'll never go back to my old dough again</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="../../images/testimonial/testimonial-1-3.jpg" alt="">
+                                            <img src="{{asset('images/testimonial/testimonial-1-3.jpg')}}" alt="">
                                             <div class="testimonial-one__quote">
                                                 <span class="icon-quote"></span>
                                             </div>

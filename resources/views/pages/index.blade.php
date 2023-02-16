@@ -20,7 +20,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(../../images/backgrounds/main-slider-1-1.jpg);"></div>
+                <div class="image-layer" style="background-image: url({{asset('images/backgrounds/main-slider-1-1.jpg')}});"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
@@ -38,7 +38,7 @@
             </div>
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(../../images/backgrounds/main-slider-1-2.jpg);"></div>
+                <div class="image-layer" style="background-image: url({{asset('images/backgrounds/main-slider-1-2.jpg')}});"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
@@ -56,7 +56,7 @@
             </div>
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url(../../images/backgrounds/main-slider-1-3.jpg);"></div>
+                <div class="image-layer" style="background-image: url({{asset('images/backgrounds/main-slider-1-3.jpg')}});"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
@@ -140,7 +140,7 @@
 <!--About One Start-->
 <section class="about-one">
     <div class="about-one-shape-1 float-bob-x">
-        <img src="../../images/shapes/about-one-shape-1.png" alt="">
+        <img src="{{asset('images/shapes/about-one-shape-1.png')}}" alt="">
     </div>
     <div class="container">
         <div class="row">
@@ -150,7 +150,7 @@
                         <span class="section-title__tagline">Get to Know Faast Mmori</span>
                         <h2 class="section-title__title">Faast Mmori is a product from Sahel Grains</h2>
                         <div class="section-title__icon">
-                            <img src="../../images/icon/section-title-icon-1.png" alt="">
+                            <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                         </div>
                     </div>
                     <p class="about-one__text-1">In Operation since '09: Sahel Grains.</p>
@@ -181,7 +181,7 @@
                         </div>
                         <div class="about-one__ceo">
                             <div class="about-one__ceo-img">
-                                <img src="../../images/resources/ceo-img.jpg" alt="">
+                                <img src="{{asset('images/resources/ceo-img.jpg')}}" alt="">
                             </div>
                             <div class="about-one__ceo-content">
                                 <h4 class="about-one__ceo-name">Kwame Boateng</h4>
@@ -195,10 +195,10 @@
                 <div class="about-one__right">
                     <div class="about-one__img-box wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-one__img-one">
-                            <img src="../../images/resources/about-one-img-1.jpg" alt="">
+                            <img src="{{asset('images/resources/about-one-img-1.jpg')}}" alt="">
                         </div>
                         <div class="about-one__img-two">
-                            <img src="../../images/resources/about-one-img-2.jpg" alt="">
+                            <img src="{{asset('images/resources/about-one-img-2.jpg')}}" alt="">
                         </div>
                         <div class="about-one__video-link">
                             <a href="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2FFaastMmori1%2Fvideos%2F1917368598299929%2F&show_text=false&width=560&t=0" class="video-popup">
@@ -218,14 +218,14 @@
 
 <!--Services One Start-->
 <section class="services-one">
-    <div class="services-one__bg" style="background-image: url(../../images/shapes/services-one-shape-1.png);">
+    <div class="services-one__bg" style="background-image: url({{asset('images/shapes/services-one-shape-1.png')}});">
     </div>
     <div class="container">
         <div class="section-title text-center">
             <span class="section-title__tagline">What We’re Doing</span>
             <h2 class="section-title__title">Services We’re offering</h2>
             <div class="section-title__icon">
-                <img src="../../images/icon/section-title-icon-1.png" alt="">
+                <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
             </div>
         </div>
         <div class="row">
@@ -307,15 +307,15 @@
 
 <!--Unbeatable One Start-->
 <section class="unbeatable-one">
-    <div class="unbeatable-one__bg  jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(../../images/backgrounds/unbeatable-one-bg.gif);"></div>
+    <div class="unbeatable-one__bg  jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url({{asset('images/backgrounds/unbeatable-one-bg.gif')}});"></div>
     <div class="container">
         <div class="unbeatable-one__inner text-center">
             <div class="unbeatable-one__content">
                 <div class="unbeatable-one__shape-one wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    <img src="../../images/shapes/unbeatable-shape-1.png" alt="" class="float-bob-y">
+                    <img src="{{asset('images/shapes/unbeatable-shape-1.png')}}" alt="" class="float-bob-y">
                 </div>
                 <div class="unbeatable-one__shape-two wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    <img src="../../images/shapes/unbeatable-shape-2.png" alt="" class="float-bob-y">
+                    <img src="{{asset('images/shapes/unbeatable-shape-2.png')}}" alt="" class="float-bob-y">
                 </div>
                 <p class="unbeatable-one__tagline">We’re Selling Healthy Products</p>
                 <h3 class="unbeatable-one__title">The kids love
@@ -332,13 +332,13 @@
 
 <!--Healthey Food One Start-->
 <section class="healthy-food-one">
-    <div class="healthy-food-one__bg float-bob-x" style="background-image: url(../../images/shapes/healthy-food-one-shape-1.png);"></div>
+    <div class="healthy-food-one__bg float-bob-x" style="background-image: url({{asset('images/shapes/healthy-food-one-shape-1.png')}});"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
                 <div class="healthy-food-one__left">
                     <div class="healthy-food-one__img">
-                        <img src="../../images/resources/shop-rite-1.jpg" alt="">
+                        <img src="{{asset('images/resources/shop-rite-1.jpg')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -348,7 +348,7 @@
                         <span class="section-title__tagline">It's Faaaaaaaaaaaast!</span>
                         <h2 class="section-title__title">Faastmmori now at Kumasi ShopRite</h2>
                         <div class="section-title__icon">
-                            <img src="../../images/icon/section-title-icon-1.png" alt="">
+                            <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                         </div>
                     </div>
                     <p class="healthy-food-one__text">Attention all shoppers! Get ready to add a touch of authenticity
@@ -356,13 +356,13 @@
                     </p>
                     <div class="row mt-5">
                         <div class="col-lg-4 about-three__left-img mb-3">
-                            <img src="../../images/resources/shop-rite-2.jpg" alt="">
+                            <img src="{{asset('images/resources/shop-rite-2.jpg')}}" alt="">
                         </div>
                         <div class="col-lg-4 about-three__left-img mb-3">
-                            <img src="../../images/resources/shop-rite-3.jpg" alt="">
+                            <img src="{{asset('images/resources/shop-rite-3.jpg')}}" alt="">
                         </div>
                         <div class="col-lg-4 about-three__left-img">
-                            <img src="../../images/resources/shop-rite-4.jpg" alt="">
+                            <img src="{{asset('images/resources/shop-rite-4.jpg')}}" alt="">
                         </div>
 
                     </div>
@@ -398,14 +398,14 @@
 
 <!--Project One Start-->
 <section class="project-one">
-    <div class="project-one__bg float-bob-y-2" style="background-image: url(../../images/shapes/project-one-shape-1.png);">
+    <div class="project-one__bg float-bob-y-2" style="background-image: url({{asset('images/shapes/project-one-shape-1.png')}});">
     </div>
     <div class="container">
         <div class="section-title text-center">
             <span class="section-title__tagline">Delicious</span>
             <h2 class="section-title__title">Made With Faast</h2>
             <div class="section-title__icon">
-                <img src="../../images/icon/section-title-icon-1.png" alt="">
+                <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
             </div>
         </div>
         <div class="row">
@@ -414,7 +414,7 @@
                 <div class="project-one__single">
                     <div class="project-one__inner">
                         <div class="project-one__img">
-                            <img src="../../images/resources/made-w-f-1.jpg" alt="">
+                            <img src="{{asset('images/resources/made-w-f-1.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -423,7 +423,7 @@
                 <div class="project-one__single">
                     <div class="project-one__inner">
                         <div class="project-one__img">
-                            <img src="../../images/resources/made-w-f-2.jpg" alt="">
+                            <img src="{{asset('images/resources/made-w-f-2.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -432,7 +432,7 @@
                 <div class="project-one__single">
                     <div class="project-one__inner">
                         <div class="project-one__img">
-                            <img src="../../images/resources/made-w-f-3.jpg" alt="">
+                            <img src="{{asset('images/resources/made-w-f-3.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -441,7 +441,7 @@
                 <div class="project-one__single">
                     <div class="project-one__inner">
                         <div class="project-one__img">
-                            <img src="../../images/resources/made-w-f-4.jpg" alt="">
+                            <img src="{{asset('images/resources/made-w-f-4.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -460,7 +460,7 @@
                         <span class="section-title__tagline">Contact Now</span>
                         <h2 class="section-title__title">Get in touch now</h2>
                         <div class="section-title__icon">
-                            <img src="../../images/icon/section-title-icon-1.png" alt="">
+                            <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                         </div>
                     </div>
                     <p class="contact-one__text">Don't wait, contact us to experience the best
@@ -498,7 +498,7 @@
             </div>
             <div class="col-xl-8 col-lg-7">
                 <div class="contact-one__right">
-                    <div class="contact-one__bg float-bob-x" style="background-image: url(../../images/shapes/contact-one-shape-1.png);"></div>
+                    <div class="contact-one__bg float-bob-x" style="background-image: url({{asset('images/shapes/contact-one-shape-1.png')}});"></div>
                     <div class="row">
                         <div class="contact-one__form-box">
                             <form method="post" action="{{route('send-mail')}}" class="contact-one__form contact-one-validated" novalidate="novalidate">
@@ -545,7 +545,7 @@
             <span class="section-title__tagline">From the News Post</span>
             <h2 class="section-title__title">Latest News & Articles</h2>
             <div class="section-title__icon">
-                <img src="../../images/icon/section-title-icon-1.png" alt="">
+                <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
             </div>
         </div>
         <div class="row">

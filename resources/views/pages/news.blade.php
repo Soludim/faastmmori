@@ -32,11 +32,6 @@
                         </div>
                     </div>
                     <div class="blog-one__content">
-                        <ul class="blog-one__meta list-unstyled">
-                            <li>
-                                <a href="{{url('/news-details/' . $new->id)}}"><i class="fas fa-user-circle"></i>Admin</a>
-                            </li>
-                        </ul>
                         <h3 class="blog-one__title">
                             <a href="{{url('/news-details/' . $new->id)}}">{{ (strlen($new->title) > 43) ? substr($new->title, 0, 43) . '...' : $new->title }}</a>
                         </h3>

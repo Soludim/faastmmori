@@ -44,7 +44,7 @@
                                             {{date('Y', strtotime($new->created_at))}}
                                         </p>
                                         <h5 class="footer-widget__news-sub-title">
-                                            <a href="{{url('/news-details/' . $new->id)}}">{{ (strlen($new->title) > 43) ? substr($new->title, 0, 43) . '...' : $new->title }}</a>
+                                            <a href="{{url('/news-details/' . $new->id)}}">{{ (strlen($new->title) > 40) ? substr($new->title, 0, 40) . '...' : $new->title }}</a>
                                         </h5>
                                     </div>
                                 </li>

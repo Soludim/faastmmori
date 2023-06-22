@@ -39,10 +39,6 @@
                         </div>
                     </div>
                     <div class="blog-details__content">
-                        <ul class="list-unstyled blog-details__meta">
-                            <li><a href="#"><i class="fas fa-user-circle"></i> Admin</a>
-                            </li>
-                        </ul>
                         <h3 class="blog-details__title">{{$news->title}}</h3>
                         <p class="blog-details__text-1">{!! $news->body !!}</p>
                     </div>
@@ -60,9 +56,8 @@
                                 </div>
                                 <div class="sidebar__post-content">
                                     <h3>
-                                        <span class="sidebar__post-content-meta"><i class="fas fa-user-circle"></i>Admin</span>
                                         <a href="{{url('/news-details/' . $new->id)}}">
-                                            {{ (strlen($new->title) > 43) ? substr($new->title, 0, 43) . '...' : $new->title }}
+                                            {{ (strlen($new->title) > 50) ? substr($new->title, 0, 50) . '...' : $new->title }}
                                         </a>
                                     </h3>
                                 </div>

@@ -20,7 +20,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <div class="image-layer" style="background-image: url({{asset('images/backgrounds/main-slider-1-1.jpg')}});"></div>
+                <div class="image-layer" style="background-image: url({{ asset('images/backgrounds/main-slider-1-1.jpg') }})"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
@@ -153,7 +153,7 @@
                             <img src="{{asset('images/icon/section-title-icon-1.png')}}" alt="">
                         </div>
                     </div>
-                    <p class="about-one__text-1">In Operation since '09: Sahel Grains.</p>
+                    <p class="about-one__text-1">In operation since '09: Sahel Grains.</p>
                     <p class="about-one__text-2">We make pre-fermented corn and cassava products for the
                         preparation of the Ghanaian traditional dishes. Smooth, so no need to sieve,
                         allowing your family to benefit from all the nutrients. Healthy, hygienic, and natural</p>
@@ -185,7 +185,7 @@
                             </div>
                             <div class="about-one__ceo-content">
                                 <h4 class="about-one__ceo-name">Kwame Boateng</h4>
-                                <p class="about-one__ceo-title">CEO of Faast</p>
+                                <p style="margin-left:40px" class="about-one__ceo-title">CEO, Sahel Grains</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                         <h3 class="services-one__title"><a href="#">Faast <br>
                                 Mmori Koko</a></h3>
                         <p class="services-one__text">Premium pre-fermented Corn
-                             dough for the preparation of the traditional Ghanaian corn-meal porridge, koko
+                            dough for the preparation of the traditional Ghanaian corn-meal porridge, koko
                         </p>
                     </div>
                 </div>
@@ -259,7 +259,7 @@
                         <h3 class="services-one__title"><a href="#">Faast
                                 <br> Mmori Banku</a></h3>
                         <p class="services-one__text">Premium pre-fermented Corn & Cassava
-                             dough for the preparation of the traditional Ghanaian dish banku.</p>
+                            dough for the preparation of the traditional Ghanaian dish banku.</p>
                     </div>
                 </div>
             </div>
@@ -331,7 +331,7 @@
 <!--Unbeatable One End-->
 
 <!--Healthey Food One Start-->
-<section class="healthy-food-one">
+<!-- <section class="healthy-food-one">
     <div class="healthy-food-one__bg float-bob-x" style="background-image: url({{asset('images/shapes/healthy-food-one-shape-1.png')}});"></div>
     <div class="container">
         <div class="row">
@@ -370,7 +370,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--Healthey Food One End-->
 
 @include('partials._testimonials')
@@ -560,11 +560,6 @@
                         </div>
                     </div>
                     <div class="blog-one__content">
-                        <ul class="blog-one__meta list-unstyled">
-                            <li>
-                                <a href="{{url('/news-details/' . $new->id)}}"><i class="fas fa-user-circle"></i>Admin</a>
-                            </li>
-                        </ul>
                         <h3 class="blog-one__title">
                             <a href="{{url('/news-details/' . $new->id)}}">{{ (strlen($new->title) > 43) ? substr($new->title, 0, 43) . '...' : $new->title }}</a>
                         </h3>
